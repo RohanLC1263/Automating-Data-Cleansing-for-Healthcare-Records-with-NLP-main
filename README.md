@@ -1,7 +1,7 @@
-# Healthcare Data Cleansing Tool 🏥
+# Healthcare Data Cleansing Tool
 An automated tool for cleaning and standardizing healthcare records using Natural Language Processing (NLP) and machine learning techniques.
 
-## Features ✨
+## Features
 - **Text Standardization**: Cleans and normalizes medical diagnoses and medication names
 - **Duplicate Detection**: Removes duplicate patient records
 - **Blood Pressure Validation**: Validates and standardizes blood pressure readings
@@ -11,7 +11,7 @@ An automated tool for cleaning and standardizing healthcare records using Natura
 - **Manual Entry**: Option to input individual records
 - **Data Export**: Download cleaned data in CSV format
 
-## Installation 🚀
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -46,7 +46,7 @@ An automated tool for cleaning and standardizing healthcare records using Natura
     ```
 
 
-## Usage 💻
+## Usage
 
 ### Running the Application
 
@@ -71,7 +71,7 @@ An automated tool for cleaning and standardizing healthcare records using Natura
 #### Download Results:
 - Click "Download Cleaned Data" to get the processed CSV file
 
-## Input Data Format 📋
+## Input Data Format
 
 Your input CSV should have the following columns:
 
@@ -99,7 +99,7 @@ Sarah Johnson,1992-07-22,chronic migraine headaches,sumatriptan 50mg tablets,118
 Mike Wilson,1978-11-30,upper respiratory infection acute,amoxicillin 500mg,125/82
 Emily Brown,1989-04-10,anxiety disorder insomnia,sertraline 50mg daily,115/75
 ```
-### Data Cleaning Process 🧹
+### Data Cleaning Process
 ```bash
 Text Standardization:
 Converts text to lowercase
@@ -118,3 +118,9 @@ Uses Isolation Forest algorithm
 Identifies unusual patterns in numerical data
 Removes statistical outliers
 ```
+## Development Workflow
+
+1. Create a feature branch before making changes.
+2. Test your changes before committing.
+3. Use descriptive commit messages.
+4. Review your changes before pushing them.
